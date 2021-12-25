@@ -1,0 +1,43 @@
+C:\Users\USER\AppData\Local\Programs\Python\Python310\python.exe C:/Python/test_parsink_vars.py
+Traceback (most recent call last):
+  File "C:\Python\test_parsink_vars.py", line 5, in <module>
+    driver = webdriver.Chrome()
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\chrome\webdriver.py", line 70, in __init__
+    super(WebDriver, self).__init__(DesiredCapabilities.CHROME['browserName'], "goog",
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\chromium\webdriver.py", line 93, in __init__
+    RemoteWebDriver.__init__(
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 268, in __init__
+    self.start_session(capabilities, browser_profile)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 359, in start_session
+    response = self.execute(Command.NEW_SESSION, parameters)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 424, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 247, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: cannot find Chrome binary
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x01056903+2517251]
+	Ordinal0 [0x00FEF8E1+2095329]
+	Ordinal0 [0x00EF2848+1058888]
+	Ordinal0 [0x00F0BC39+1162297]
+	Ordinal0 [0x00F0A2CF+1155791]
+	Ordinal0 [0x00F3AAAF+1354415]
+	Ordinal0 [0x00F3A71A+1353498]
+	Ordinal0 [0x00F3639B+1336219]
+	Ordinal0 [0x00F127A7+1189799]
+	Ordinal0 [0x00F13609+1193481]
+	GetHandleVerifier [0x011E5904+1577972]
+	GetHandleVerifier [0x01290B97+2279047]
+	GetHandleVerifier [0x010E6D09+534521]
+	GetHandleVerifier [0x010E5DB9+530601]
+	Ordinal0 [0x00FF4FF9+2117625]
+	Ordinal0 [0x00FF98A8+2136232]
+	Ordinal0 [0x00FF99E2+2136546]
+	Ordinal0 [0x01003541+2176321]
+	BaseThreadInitThunk [0x75436359+25]
+	RtlGetAppContainerNamedObjectPath [0x77728964+228]
+	RtlGetAppContainerNamedObjectPath [0x77728934+180]
+
+
+Process finished with exit code 1
